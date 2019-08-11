@@ -70,9 +70,6 @@ namespace xwalk {
 
 namespace {
 
-constexpr char kThrottledErrorDescription[] = "Request throttled. Visit http://dev.chromium.org/throttling for more "
-    "information.";
-
 xwalk::XWalkContentRendererClient* g_renderer_client;
 
 class XWalkFrameHelper
